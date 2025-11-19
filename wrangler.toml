@@ -1,5 +1,8 @@
 name = "testcm2-7112"
 main = "_worker.js"
-compatibility_date = "2025-11-04"
-
+compatibility_date = "2025-11-18"
+kv_namespaces = [
+  { binding = "KV", id = "a507339c89454020a424f8b5292141d7" }
+]
 keep_vars = true
+
