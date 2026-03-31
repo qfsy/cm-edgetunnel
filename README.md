@@ -130,6 +130,9 @@
 ---
 
 ## 🔧 高级实用技巧
+如需修改 **订阅地址里的TOKEN** 和 **用于节点验证的UUID** ，可通过修改变量
+1. 修改`ADMIN`或`KEY`变量的值，可以随机修改 **订阅地址里的TOKEN** 和 **用于节点验证的UUID**
+2. 设置`UUID`变量可以强制固定 **订阅地址里的TOKEN** 和 **用于节点验证的UUID**，注意必须是**UUIDv4**标准格式，否则会导致节点无法使用。
 
 本工具支持通过 **PATH路径** 动态切换底层代理方案：
 
@@ -137,7 +140,6 @@
    ```url
    /proxyip=proxyip.cmliussss.net
    /?proxyip=proxyip.cmliussss.net
-   /proxyip.cmliussss.net (仅限于域名开头为'proxyip.'的域名)
    ```
 
 - 指定 `SOCKS5` 案例
@@ -194,6 +196,7 @@
 - [eooce](https://github.com/eooce/Cloudflare-proxy)
 - [Sukka](https://ip.skk.moe/)
 - [zhangtaile](https://github.com/cmliu/edgetunnel/pull/999)
+- [1345695](https://github.com/1345695/edcloudwasm)
 
 ---
 
