@@ -1,5 +1,6 @@
 # Demo 目录
 demo/
+tmp/
 
 # 依赖包
 node_modules/
